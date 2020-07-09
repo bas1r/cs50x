@@ -1,0 +1,305 @@
+/********************
+GENERAL 
+ ********************/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+    overflow: auto;
+     /* background-color: gray; */
+    }
+    
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    
+    
+    
+}
+
+h3 {
+    padding-top: 32px;
+    margin: 0 0 0.30em;
+}
+
+
+
+/********************
+HEADING 
+********************/
+
+header {
+    float: left;
+    margin: 0 0 0 0px;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0 0 0 0px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin: -40 0 0;
+    font-weight: lighter;
+    line-height: 0;   
+}
+
+
+
+/********************
+NAVIGATION
+********************/
+
+nav {
+    text-align: center;
+    padding: 12px 0;
+    margin: 0 5%;
+}
+
+nav ul {
+    margin: 0 30px;
+    padding: 0;
+
+}
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: normal;
+    padding: 15px 10px;
+}
+
+/********************
+FOOTER
+********************/
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 40px;
+    color: gray;
+    background: lightgray;
+    
+    
+}
+
+footer a {
+    font-weight: bold;
+    padding: 15px 3px;
+}
+footer p {
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+/********************
+PAGE: GALLERY 
+********************/
+#gallery {
+    
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    
+    
+    
+    
+    
+    
+}
+#gallery li {
+    /* float: left;
+    width: 45%; */
+    /* margin: 2.5%; */
+    /* background-color: gray;
+    color: white; */
+    /* display: inline-block; */
+    /* vertical-align: top;
+    */
+   
+    
+    padding: 8px;
+   
+
+    
+    
+}   
+
+
+
+
+/********************
+PAGE: ABOUT 
+********************/
+
+/* #about {
+    background-color: ;
+    clear: both;
+} */
+
+
+
+/********************
+PAGE: CONTACT 
+********************/
+
+.contact-info {
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+#secondary h3 {
+    
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/********************
+PAGE: SIGN UP
+********************/
+
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+  }
+
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+  }
+
+  #button {
+    padding: 19px 39px 18px 39px;
+    color: #fff;
+    background-color: #111;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid gray;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  #result {
+      margin-top: 30px;
+      text-align: center;
+      color: red;
+  }
+
+
+
+
+
+/********************
+COLOR 
+********************/
+
+/* site body */
+body {
+    background-color: #ffffff;
+    color: gray;
+}
+
+/* black header */
+header {
+    background: #111111;
+    
+}
+
+/* logo text */
+h1, h2 {
+    color: #ffffff;
+}
+
+/* links */
+a {
+    color: gray;
+}
+
+
+/* nav link */
+nav a, nav a:visited {
+    color: #ffffff;
+    
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+    color: gray;
+    text-decoration: none;
+    
+}
+
+#logo:hover {
+    text-decoration: none;
+}

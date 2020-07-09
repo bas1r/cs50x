@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    HOME
+{% endblock %}
+
+{% block main %}
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h1 class="display-4">Hello, {{username}}!</h1>
+        <p class="lead">Welcome to C$50 Finance.</p>
+        </div>
+    </div>
+
+    <div class="table-responsive col-sm-12">
+        <h4>Monitor your Stocks</h4>
+
+        <table class="table table-striped text-left table-bordered">
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Shares</th>
+                    <th>Price</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="4"></td>
+                    <td>{{total}}</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                    {% for row in stockInfo %}
+                        {% if row["shares"] != 0 %}
+                            <tr>
+                                <td>{{row["symbol"]}}</td>
+                                <td>{{row["name"]}}</td>
+                                <td>{{row["shares"]}}</td>
+                                <td>{{row["price"]}}</td>
+                                <td>{{row["total"]}}</td>
+                            </tr>
+                        {% endif%}
+                    {% endfor %}
+                <tr>
+                    <td colspan="4">CASH</td>
+                    <td>{{cash}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+Once the program executed.
+
+1. Prompt the user to input the height of pyramid.
+2. if the integer is greater than 8 or less than 1 go back and repeat the process.
+3. iterate from 0 through the given integer "height":
+
+  i. On iteration first prints spaces if the condition false then the program check for the hashes to print until its true if false then a new line. And it iterates until the the condition matches with given integer "Height"

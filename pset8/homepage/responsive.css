@@ -1,0 +1,57 @@
+@media screen and (min-width: 480px) {
+    
+
+    #primary {
+        width: 50%;
+        float: left;
+    }
+    #secondary {
+        width: 40%;
+        float: left;
+        
+    }
+
+    #gallery li {
+        width: 28.3333%;
+        flex: 1 50%;
+    }
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+
+    footer {
+        margin-bottom: 0;
+    }
+    .wrap {
+        min-height: calc(100vh -  100px);
+    }
+   
+}
+
+@media screen and (min-width: 660px) {
+   
+    nav {
+        background: none;
+        float: right;
+        margin: 10px;
+        text-align: right;
+        
+    }
+
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        
+    }
+
+    h2 {
+        margin-bottom: 24px;
+    }
+   
+
+    .wrap {
+        min-height: calc(100vh -  100px);
+    }
+
+}
