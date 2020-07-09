@@ -12,8 +12,7 @@ but I hardly recommand to figure out a working solution yourself before taking a
     + [less](/pset1/mario/less)
     + [more](/pset1/mario/more)
   * [cash](/pset1/cash)
-  * [credit](/pset1/credit)
-  
+  * [credit](/pset1/credit) 
 - [Problem Set 2: Crypto](/pset2)
   * [readibility](/pset2/readibility)
   * [caesar](/pset2/caesar)  
@@ -24,7 +23,6 @@ but I hardly recommand to figure out a working solution yourself before taking a
 - [Problem Set 4: Forensics](/pset4)
   * [filter](/pset4/filter)
   * [recover](/pset4/recover)
-  
 - [Problem Set 5: Mispellings](/pset5)
   * [speller](/pset5/speller)
 - [Problem Set 6: Déjà vu](/pset6)
