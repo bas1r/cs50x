@@ -2,7 +2,7 @@ CS50 — 2019 solutions
 =====================
 
 > Read CS50's [Academic Honesty](https://docs.cs50.net/2018/x/syllabus.html#academic-honesty). These solutions will help you to get through the course without too much effort,
-but I hardly recommand to figure out a working solution yourself before taking a look at any of these solutions. Invest your time and energy into solving the problem sets. DO NOT COPY PASTE any of the solution rather understand behind the hood.
+but I hardly recommand to figure out a working solution yourself before taking a look at any of these solutions. Invest your time and energy into solving the problem sets. Please DO NOT COPY PASTE any of the solution rather understand behind the hood.
 
 ## Table of Contents
 
